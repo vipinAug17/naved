@@ -1,0 +1,86 @@
+@import './reset.css';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 16rem;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 90px 0;
+}
+
+header {
+    position: relative;
+    border-radius: 50px;
+    background: #9ae2fe url(/assets/header_bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    padding: 90px 96px 140px 96px;
+    margin-bottom: 70px;
+}
+
+header .lt {
+    width: 300px;
+}
+
+header .lt h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+}
+
+header .lt p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+header .rt {
+    height: 341px;
+    width: 606px;
+    border-radius: 40px;
+    background-color: #242422;
+}
+
+header ul {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 32px 45px;
+    position: absolute;
+    bottom: -54px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    column-gap: 65px;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+}
+
+header li svg {
+    margin-right: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+header li span {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
